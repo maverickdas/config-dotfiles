@@ -1,0 +1,42 @@
+"for f in split(glob('~/.config/nvim/config/*.vim'), '\n')
+"	exe 'source' f
+"endfor
+" Enable syntax highlighting
+
+" Load Plugins 
+call plug#begin('~/.config/nvim/plugged')
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'godlygeek/tabular'
+call plug#end()
+
+
+
+
+
+syntax on                                                 " Configuring NEOVIM
+set backspace=indent,eol,start                            " Fixes backspace
+set ruler                                                 " Enable line/column info at bottom
+set history=100
+set cursorline                                            " highlights current line
+set scrolloff=10
+set ai                                                    " Autoindentation
+filetype indent plugin on
+set clipboard+=unnamedplus                                " Copies using system clipboard
+set tabstop=4                                             " Tab = 4 spaces
+set shiftwidth=4
+set expandtab                                             " set sta
+set sts=4                                                 " softtabstop, makes spaces feel like tabs when deleting
+set mouse=a mousemodel=popup                              " enable mouse support
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown " markdown file recognition
+autocmd BufNewFile,BufReadPost *.md.html set filetype=markdown
+" relative line numbers
+" Sets relative line numbers in normal mode, absolute line numbers in insert
+" mode
+set number
+set relativenumber
+
+" Disabling arrow keys
+imap <Up>  <NOP>
+imap <Down>  <NOP>
+imap <Left>  <NOP>
+imap <Right>  <NOP>
