@@ -19,7 +19,8 @@ function sample
     echo $argv[1]:$argv[2] | awk -F: -v name=$argv[3] '{print $1 " " name " " $2}'
 end
 
-setxkbmap -option "caps:swapescape"
+alias chcaps="setxkbmap -option \"caps:swapescape\""
+alias chback="setxkbmap -option "
 
 function git_productivity 
 	echo "Between "$argv[1]" and "$argv[2]" --"
