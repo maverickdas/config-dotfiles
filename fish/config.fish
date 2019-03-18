@@ -52,5 +52,5 @@ alias reflector_update="sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlis
          && sudo reflector --verbose --latest 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 alias logoff="kill -9 -1"
 
-env NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
+#env NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
 

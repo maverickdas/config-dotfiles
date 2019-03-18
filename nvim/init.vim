@@ -8,7 +8,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 Plug 'godlygeek/tabular'
 Plug 'lervag/vimtex'
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags'
 Plug 'mhinz/neovim-remote', {'do': 'python setup.py install --user'}
 Plug 'ayu-theme/ayu-vim'
 Plug 'Yggdroot/indentLine'
