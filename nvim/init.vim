@@ -12,6 +12,7 @@ Plug 'lervag/vimtex'
 Plug 'mhinz/neovim-remote', {'do': 'python setup.py install --user'}
 Plug 'ayu-theme/ayu-vim'
 Plug 'Yggdroot/indentLine'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 set backspace=indent,eol,start                            " Fixes backspace

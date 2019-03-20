@@ -47,7 +47,7 @@ end
 #alias ged="gedit &> /dev/null"
 alias grep="grep --color"
 alias open="xdg-open"
-
+alias git-cred-store="git config credential.helper 'cache --timeout 3600'"
 
 alias reflector_update="sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak \
          && sudo reflector --verbose --latest 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
