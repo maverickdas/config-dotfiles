@@ -35,7 +35,7 @@
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="termite"/>
-      <property name="&lt;Super&gt;a" type="empty">
+      <property name="&lt;Super&gt;a" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="XF86AudioLowerVolume" type="string" value="pactl -- set-sink-volume 0 -5%">
@@ -47,9 +47,13 @@
       <property name="XF86AudioMute" type="string" value="pactl -- set-sink-mute 0 toggle">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Super_L" type="string" value="xfce4-appfinder">
+      <property name="Super_L" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;f" type="string" value="thunar">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

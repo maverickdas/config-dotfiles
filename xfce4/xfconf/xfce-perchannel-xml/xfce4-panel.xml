@@ -4,11 +4,10 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <value type="int" value="2"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=960;y=15"/>
       <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="true"/>
+      <property name="position-locked" type="bool" value="false"/>
       <property name="size" type="uint" value="33"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="3"/>
@@ -18,7 +17,6 @@
         <value type="int" value="2"/>
         <value type="int" value="17"/>
         <value type="int" value="16"/>
-        <value type="int" value="1"/>
         <value type="int" value="4"/>
       </property>
       <property name="background-alpha" type="uint" value="80"/>
@@ -26,35 +24,6 @@
       <property name="leave-opacity" type="uint" value="79"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="background-style" type="uint" value="0"/>
-    </property>
-    <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=10;x=967;y=1049"/>
-      <property name="size" type="uint" value="48"/>
-      <property name="nrows" type="uint" value="1"/>
-      <property name="length" type="uint" value="1"/>
-      <property name="background-alpha" type="uint" value="73"/>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="leave-opacity" type="uint" value="100"/>
-      <property name="autohide-behavior" type="uint" value="2"/>
-      <property name="disable-struts" type="bool" value="true"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
-        <value type="int" value="8"/>
-        <value type="int" value="9"/>
-        <value type="int" value="10"/>
-        <value type="int" value="11"/>
-        <value type="int" value="12"/>
-        <value type="int" value="13"/>
-        <value type="int" value="14"/>
-      </property>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-color" type="array">
-        <value type="uint" value="0"/>
-        <value type="uint" value="0"/>
-        <value type="uint" value="0"/>
-        <value type="uint" value="65535"/>
-      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -74,60 +43,11 @@
         <value type="string" value="pamac-tray"/>
       </property>
     </property>
-    <property name="plugin-7" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529902881.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-8" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529903352.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529903583.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529903824.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529904215.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-12" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529905146.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-13" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529905397.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-14" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15529905588.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-    </property>
     <property name="plugin-17" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="spotify"/>
     </property>
     <property name="plugin-16" type="string" value="cpugraph"/>
-    <property name="plugin-1" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-4" type="string" value="battery"/>
   </property>
 </channel>
