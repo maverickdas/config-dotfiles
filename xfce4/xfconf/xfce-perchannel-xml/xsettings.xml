@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Mojave-light-solid-alt"/>
-    <property name="IconThemeName" type="string" value="ePapirus"/>
+    <property name="ThemeName" type="string" value="McOS-MJV-Dark-XFCE-Edition-2.3"/>
+    <property name="IconThemeName" type="string" value="Mojave-CT-dark-mode"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -32,7 +32,7 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="breeze_cursors"/>
+    <property name="CursorThemeName" type="string" value="default"/>
     <property name="CursorThemeSize" type="empty"/>
     <property name="DecorationLayout" type="empty"/>
   </property>
