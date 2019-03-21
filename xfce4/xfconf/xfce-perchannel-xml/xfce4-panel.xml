@@ -35,13 +35,17 @@
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="task manager"/>
+        <value type="string" value="pamac-tray"/>
         <value type="string" value="albert"/>
         <value type="string" value="clementine"/>
         <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
         <value type="string" value="steam"/>
-        <value type="string" value="pamac-tray"/>
+        <value type="string" value="docky"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="task manager"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="obs"/>
         <value type="string" value="slack"/>
       </property>
     </property>
